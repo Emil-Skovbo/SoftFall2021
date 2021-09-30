@@ -6,8 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Assignment1" />
-        <module name="TestAssignment1" />
+        <module name="Week3TDDClassTest" />
       </profile>
     </annotationProcessing>
   </component>
