@@ -38,9 +38,10 @@ public class StudentResource {
 	@GetMapping("/{id}")
 	public EntityModel<Student> retrieveStudent(@PathVariable long id)
 	{
+
 		Optional<Student> student = repo.findById(id);
 		if (!student.isPresent())
-			throw new StudentNotFoundException("id: " + id);
+			throw new StudentNotFoundException("id: " + id+" does not exist. try another id that exists. ");
 
 		EntityModel<Student> resource = EntityModel.of(student.get()); 						// get the resource
 		WebMvcLinkBuilder linkTo = linkTo(methodOn(this.getClass()).retrieveAllStudents()); // get link
