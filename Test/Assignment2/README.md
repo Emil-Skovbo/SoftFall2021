@@ -52,3 +52,25 @@ Junit 5 nested tests is used to express the relationship among several groups of
 * assumeFalse, assumeTrue
 
 Assumptions.class in JUnit5 contains a collection of methods that enables us to programmatically decide whether to continue executing the test or skip the further execution.
+
+
+
+#MOCKING FRAMEWORKS
+Investigate mocking frameworks for your preferred language. Choose at least two frameworks, and answer the questions.
+(One could be Mockito, which we saw in class.)
+##Mockito vs JMockit 
+[Information Source](https://www.baeldung.com/mockito-vs-easymock-vs-jmockit)
+
+* What are their similarities?
+
+
+* What are their differences?
+  
+
+* Which one would you prefer, if any, and why?
+
+
+
+
+
+
