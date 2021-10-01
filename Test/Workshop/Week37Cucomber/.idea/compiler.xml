@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Cucomber" />
+        <module name="Week37Cucomber" />
       </profile>
     </annotationProcessing>
   </component>
